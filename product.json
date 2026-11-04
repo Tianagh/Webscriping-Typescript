@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Polo Shirt",
+        "category": "SHIRTS",
+        "price": 180,
+        "image": "images/Top.jpeg",
+        "featured": true,
+        "status": "approved"
+    },
+    {
+        "id": 2,
+        "name": "Premium Casual Shirt",
+        "category": "SHIRTS",
+        "price": 250,
+        "image": "images/simpleLux.jpeg",
+        "featured": true,
+        "status": "approved"
+    },
+    {
+        "id": 3,
+        "name": "Essential T-Shirt",
+        "category": "T-SHIRTS",
+        "price": 150,
+        "image": "images/Top(cotton).jpeg",
+        "featured": true,
+        "status": "approved"
+    },
+    {
+        "id": 4,
+        "name": "Smart Casual Trousers",
+        "category": "TROUSERS",
+        "price": 300,
+        "image": "images/joggers.jpeg",
+        "featured": true,
+        "status": "approved"
+    }
+]

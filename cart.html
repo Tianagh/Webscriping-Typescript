@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart | Tiana's Inn</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            TIANA'S INN
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="cart.html" aria-label="Shopping cart">
+                🛒 <span id="cart-count">0</span>
+            </a>
+        </div>
+
+    </header>
+
+    <main class="shopping-cart">
+
+        <div class="section-heading">
+            <p class="section-label">YOUR SELECTION</p>
+            <h2>SHOPPING CART</h2>
+        </div>
+
+        <div id="cart-items">
+            <p>Your cart is currently empty.</p>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Total: <span id="cart-total">GH₵0.00</span></h3>
+            <a href="checkout.html" class="checkout-button">
+                PROCEED TO CHECKOUT
+            </a>
+        </div>
+    </main>
+
+    <script type="module" src="dist/cart.js"></script>
+</body>
+
+</html>

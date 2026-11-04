@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Order Confirmation | Tiana's Inn</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            TIANA'S INN
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="cart.html">Shopping Cart</a>
+        </nav>
+
+    </header>
+
+    <main class="confirmation-section">
+
+        <div class="confirmation-container">
+
+            <div class="confirmation-icon">✓</div>
+
+            <p class="section-label">THANK YOU FOR SHOPPING WITH US</p>
+
+            <h1>ORDER CONFIRMED!</h1>
+
+            <p class="confirmation-message">
+                Your order has been prepared successfully.
+                We appreciate your business.
+            </p>
+
+            <div class="order-details">
+
+                <h2>Order Details</h2>
+
+                <p>Order Reference: <span id="order-reference"></span></p>
+
+                <div id="confirmed-customer"></div>
+
+                <div id="confirmed-products"></div>
+
+                <h3>Total: <span id="confirmed-total">GH₵0.00</span></h3>
+
+            </div>
+
+            <a href="index.html" class="hero-button">
+                CONTINUE SHOPPING
+            </a>
+
+        </div>
+
+    </main>
+
+    <script type="module" src="dist/confirmation.js"></script>
+</body>
+
+</html>
